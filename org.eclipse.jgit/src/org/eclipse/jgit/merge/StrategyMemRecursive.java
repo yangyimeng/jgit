@@ -7,7 +7,7 @@ import org.eclipse.jgit.lib.Repository;
 
 public class StrategyMemRecursive extends StrategyRecursive{
 
-    public static final ThreeWayMergeStrategy MEM_RECURSIVE = new StrategyMemRecursive();
+    public static final StrategyRecursive MEM_RECURSIVE = new StrategyMemRecursive();
 
     static {
         register(MEM_RECURSIVE);
